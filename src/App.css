@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.App {
+  display: grid;
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #141414;
+  padding: 50px;
+  color: #fff;
+}
