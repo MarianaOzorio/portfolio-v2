@@ -5,11 +5,23 @@
 }
 
 .App {
-  display: grid;
   position: fixed;
   width: 100%;
   min-height: 100vh;
   background-color: #141414;
   padding: 50px;
   color: #fff;
+}
+
+.navbarAndContentWrapper {
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbarAndContentWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
