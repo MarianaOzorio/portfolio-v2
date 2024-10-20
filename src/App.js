@@ -5,6 +5,7 @@ import Contacts from "./Pages/Contacts/Contacts.tsx";
 import Projects from "./Pages/Projects/Projects.tsx";
 import Navbar from "./Components/Navbar/Navbar.tsx";
 import Background from "./Components/Background/Background.tsx";
+import Footer from "./Components/Footer/Footer.tsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           </Routes>
         </Router>
       </div>
+      <Footer />
     </div>
   );
 }
