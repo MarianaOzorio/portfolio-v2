@@ -13,8 +13,8 @@
 }
 
 .menuIcon {
-  width: 3em;
-  height: 3em;
+  width: 48px;
+  height: 48px;
   display: none;
 }
 
@@ -95,5 +95,16 @@
 
   .contactLink {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .menuIcon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbarWrapper h1 {
+    font-size: 1.3rem;
   }
 }
