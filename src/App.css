@@ -20,6 +20,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .App {
+    overflow-y: auto;
+  }
+
   .navbarAndContentWrapper {
     display: grid;
     grid-template-columns: 1fr;
