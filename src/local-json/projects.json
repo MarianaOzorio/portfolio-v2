@@ -1,0 +1,22 @@
+[
+  {
+    "name": "exercícios javascript",
+    "siteUrl": "https://marianaozorio.github.io/curso-em-video-javascript/index.html",
+    "codigoUrl": "https://github.com/MarianaOzorio/curso-em-video-javascript"
+  },
+  {
+    "name": "formula 1 champions",
+    "siteUrl": "https://marianaozorio.github.io/f1-champions/",
+    "codigoUrl": "https://github.com/MarianaOzorio/f1-champions"
+  },
+  {
+    "name": "movies",
+    "siteUrl": "https://popular-movies-tmdb.vercel.app/",
+    "codigoUrl": "https://github.com/MarianaOzorio/popular-movies-tmdb"
+  },
+  {
+    "name": "georgia restaurant",
+    "siteUrl": "window.location.href='https://georgia-restaurant.vercel.app/",
+    "codigoUrl": "https://github.com/MarianaOzorio/sass-course/tree/main/georgia-restaurant"
+  }
+]

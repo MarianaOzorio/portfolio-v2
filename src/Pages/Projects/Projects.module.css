@@ -1,0 +1,47 @@
+.projectsList {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.projectsList li {
+  width: 300px;
+  border-radius: 48px;
+  background-color: rgba(49, 49, 49, 0.5);
+  margin-bottom: 15px;
+  list-style-type: none;
+  text-align: right;
+  font-family: "Lexend Zetta", sans-serif;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.projectsList h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.projectsList a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectsList {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projectsList h3 {
+    font-size: 1rem;
+  }
+
+  .projectsList a {
+    font-size: 0.8rem;
+  }
+}
