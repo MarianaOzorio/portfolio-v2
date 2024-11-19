@@ -10,8 +10,12 @@ function Projects() {
           <li key={project.name}>
             <h3>{project.name}</h3>
             <br></br>
-            <a href={project.siteUrl}>site -</a>
-            <a href={project.codigoUrl}>código</a>
+            <a href={project.siteUrl} target="_blank">
+              site -
+            </a>
+            <a href={project.codigoUrl} target="_blank">
+              código
+            </a>
           </li>
         ))}
       </ul>
