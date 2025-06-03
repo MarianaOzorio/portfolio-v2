@@ -1,8 +1,6 @@
 import styles from "./AboutMe.module.css";
-import { useRef } from "react";
 
 function AboutMe() {
-  const contentRef = useRef<HTMLDivElement>(null);
   const educationList = [
     {
       course: "Comunicação Social - Publicidade e Propaganda",
@@ -17,7 +15,7 @@ function AboutMe() {
   ];
 
   return (
-    <div ref={contentRef} className={styles.aboutMeWrapper}>
+    <div className={styles.aboutMeWrapper}>
       <div className={styles.textsContainer}>
         <div className={styles.educationWrapper}>
           <h3>formação</h3>
