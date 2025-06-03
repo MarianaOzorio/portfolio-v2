@@ -1,14 +1,34 @@
-.projectsList {
-  height: 100vh;
+.projectsWrapper {
+  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: right;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  will-change: scroll-position;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
-.projectsList li {
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.projectsWrapper li {
   width: 300px;
-  border-radius: 48px;
+  height: 125px;
   background-color: rgba(49, 49, 49, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 15px;
   list-style-type: none;
   text-align: right;
@@ -17,14 +37,22 @@
   margin-right: 10px;
 }
 
-.projectsList h3 {
+.projectsWrapper li:last-child {
+  margin-bottom: 0;
+}
+
+.projectsWrapper li:hover {
+  background-color: rgba(49, 49, 49, 0.8);
+}
+
+.projectsWrapper h3 {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 400;
   margin-right: 10px;
 }
 
-.projectsList a {
+.projectsWrapper a {
   text-decoration: none;
   color: #fff;
   font-size: 0.9rem;
@@ -32,12 +60,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .projectsList {
+  .projectsWrapper {
     display: flex;
     justify-content: center;
   }
 
-  .projectsList h3 {
+  .projectsWrapper h3 {
     font-size: 1rem;
   }
 }
